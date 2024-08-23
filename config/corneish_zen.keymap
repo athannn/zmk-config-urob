@@ -2,8 +2,8 @@
 #include "zmk-helpers/key-labels/36.h"
 
 /* map Zen's extra keys */
-#define X_LH  &kp LGUI      // thumb row, left -- change to &mo 1
-#define X_RH  &smart_mouse  // thumb row, right -- to change to &mo 2?
+# define X_LH  &kp LGUI      // thumb row, left -- change to &mo 1
+# define X_RH  &smart_mouse  // thumb row, right -- to change to &mo 2?
 
 /* activate bluetooth */
 #define CONFIG_WIRELESS 1
