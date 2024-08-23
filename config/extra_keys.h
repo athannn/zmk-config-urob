@@ -8,12 +8,12 @@
 #if !defined X_LM  // middle row, left
     #define X_LM
 #endif
-#if !defined X_LB  // bottom row, left
+#if !defined X_LB  // bottom row, lefthttps://github.com/athannn/zmk-config-urob/blob/main/config/extra_keys.h
     #define X_LB
 #endif
-// #if !defined X_LH  // thumb row, left
-//     #define X_LH
-// #endif
+#if !defined X_LH  // thumb row, left
+     #define X_LH
+#endif
 
 /* between left and right half */
 #if !defined X_MT  // top row, middle
@@ -39,7 +39,7 @@
 #if !defined X_RB  // bottom row, right
     #define X_RB
 #endif
-// #if !defined X_RH  // thumb row, right
-//    #define X_RH
+#if !defined X_RH  // thumb row, right
+    #define X_RH
 // #endif
 
